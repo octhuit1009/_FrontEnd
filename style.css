@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1#yellow {
+h1 > #yellow { /*子选择器*/
     color: #ff0;
 }
 
