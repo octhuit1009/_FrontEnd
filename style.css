@@ -4,7 +4,39 @@ h1 {
 }
 
 p {
-    height: 50px;
+    height: 100px;
     background: #ddd;
     text-indent: 2em;
+}
+
+.round {
+    border-radius: 50px;
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+#test {
+    text-decoration: underline;
+}
+
+#blue {
+    color: blue;
+}
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+tr {
+    background: #fcc;
+}
+
+th {
+    background: #ddd;
+    width: 200px;
 }
