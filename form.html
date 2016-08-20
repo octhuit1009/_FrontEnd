@@ -5,24 +5,32 @@
     <title>form page</title>
 </head>
 <body>
-<h1>sign up form</h1>
-<form action="">
-    <input type="text" name="email" placeholder="EMAIL"><br>
+<h1>SIGN UP FORM</h1>
+<form action="" method="post">
+    <input type="hidden" name="key" value="value">
+    <input name="email" placeholder="EMAIL" value="asdf@asdf.com" disabled="disabled"><br>
     <input type="password" name="password" placeholder="PASSWORD"><br>
-    <input type="radio" name="sex">Male
+    <input type="radio" name="sex" checked="checked">Male
     <input type="radio" name="sex">Female<br>
-    <input type="checkbox" name="hobbies">TV
+    <input type="checkbox" name="hobbies" checked="checked">TV
     <input type="checkbox" name="hobbies">Movie
     <input type="checkbox" name="hobbies">Read
-    <input type="checkbox" name="hobbies">Game<br>
-    <select name="city">
+    <input type="checkbox" name="hobbies" checked="checked">Game<br>
+    <select name="city" multiple="multiple">
         <option value="Beijing">Beijing</option>
         <option value="Shanghai">Shanghai</option>
         <option value="Guangzhou">Guangzhou</option>
-        <option value="Shenzhen">Shenzhen</option>
+        <option value="Shenzhen" selected="selected">Shenzhen</option>
     </select><br>
-    <textarea name="intro" style="width: 200px; height: 100px; min-width: 200px; min-height: 100px; max-width: 200px; max-height: 100px;"></textarea><br>
+    <textarea name="intro" style="width: 200px; height: 100px; min-width: 200px; min-height: 100px; max-width: 200px; max-height: 100px;">asdf...</textarea><br>
+    <input type="file"><br>
+    <!--<input type="date" name=""><br>-->
+    <!--<input type="color" name=""><br>-->
+    <!--<input type="range" name=""><br>-->
+    <!--<input type="email"><br>-->
     <input type="submit" value="SIGN UP">
+    <input type="reset" value="RESET">
+    <input type="button" value="BUTTON">
 </form>
 </body>
 </html>
