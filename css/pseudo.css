@@ -27,3 +27,48 @@ a#second:active {
     color: #369;
 }
 
+div {
+    background: #ddd;
+}
+
+div:hover {
+    background: #369;
+}
+
+div:active {
+    background: #00f;
+}
+
+input:focus {
+    background: #ff0;
+}
+
+p {
+    font-size: xx-large;
+}
+
+p:first-child {
+    color: red;
+    font-family: Arial, serif;
+}
+
+p:last-child {
+    color: #0f0;
+}
+
+p:nth-child(3) {
+    color: #00f;
+}
+
+p:first-of-type {
+    background: #333;
+}
+
+h1::before {
+    content: 'hello, ';
+}
+
+h1::after {
+    content: '。。。';
+}
+
