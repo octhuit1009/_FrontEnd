@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a#second {
+    font-size: 300px;
+}
+
+
+a#second:link {
+
+}
+
+a#second:visited {
+    color: #000;
+    background: yellow;
+}
+
+a#second:hover {
+    font-size: 350px;
+    color: red;
+    text-decoration: none;
+}
+
+a#second:active {
+    color: #369;
+}
+
