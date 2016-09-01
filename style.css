@@ -1,4 +1,13 @@
-/*style.css*/
+/* wildcard 外卡 野牌 通配符*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 > #yellow { /*子选择器*/
+    color: #ff0;
+}
+
 h1 {
     color: #0f0;
 }
@@ -26,6 +35,8 @@ p {
     color: blue;
 }
 
+/* 可读性 */
+
 table {
     border-width: 1px;
     border-style: solid;
@@ -40,3 +51,16 @@ th {
     background: #ddd;
     width: 200px;
 }
+
+body {
+    font-family: Aharoni, serif;
+}
+
+tr,
+body,
+h1,
+p {
+
+}
+
+
